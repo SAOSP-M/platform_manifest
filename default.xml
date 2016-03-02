@@ -43,6 +43,8 @@
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
+  <project path="device/huawei/angler" name="SAOSP-M/platform_device_huawei_angler" groups="device,angler,broadcom_pdk" remote="github" revision="M" />
+  <project path="device/huawei/angler-kernel" name="device/huawei/angler-kernel" groups="device,angler,broadcom_pdk" />
   <project path="device/lge/bullhead" name="SAOSP-M/platform_device_lge_bullhead" groups="device,bullhead" remote="github" revision="M" />
   <project path="device/lge/bullhead-kernel" name="device/lge/bullhead-kernel" groups="device,bullhead" clone-depth="1" />
   <project path="device/lge/hammerhead" name="SAOSP-M/platform_device_lge_hammerhead" remote="github" revision="M" />
@@ -456,6 +458,7 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <project path="vendor/asus" name="SAOSP-M/proprietary_vendor_asus" remote="github" revision="M" />
   <project path="vendor/lge/bullhead" name="SAOSP-M/platform_vendor_lge_bullhead" remote="github" revision="M" />
+  <project path="vendor/huawei" name="SAOSP-M/proprietary_vendor_huawei" remote="github" revision="M" />
   <project path="vendor/lge/hammerhead" name="SAOSP-M/platform_vendor_lge_hammerhead" remote="github" revision="M" />
   <project path="vendor/lge/mako" name="SAOSP-M/platform_vendor_lge_mako" remote="github" revision="M" />
   <project path="vendor/simpleaosp" name="SAOSP-M/platform_vendor_simpleaosp" remote="github" revision="M" />
